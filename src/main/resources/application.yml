@@ -1,0 +1,5 @@
+telegram:
+  id: YOUR_ID
+  key: YOUR_KEY
+  chat-id: YOUR_CHAT_ID # For getting chat id, follow link : https://gist.github.com/mraaroncruz/e76d19f7d61d59419002db54030ebe35
+  url: https://api.telegram.org/bot${telegram.id}:${telegram.key}/sendMessage?chat_id=${telegram.chat-id}&disable_notification=true&text={text}
